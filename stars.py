@@ -5,12 +5,12 @@ import random
 screen = turtle.Screen()
 screen.bgcolor("black")
 
-# Create a turtle object
+# create turtle object
 star = turtle.Turtle()
 star.speed(0)
 
 
-# Define a function to draw a star
+# function to draw a star
 def draw_star(x, y, size):
     star.penup()
     star.goto(x, y)
